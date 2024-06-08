@@ -144,6 +144,7 @@ span {
   .second-block {
     height: 635px;
     display: flex;
+    margin-bottom: 20px;
   }
 
   .second-text {
@@ -177,6 +178,77 @@ span {
 
   .categories-line {
     margin-bottom: 8px;
+  }
+
+  .landing-pages {
+    height: 1342px;
+    margin-left: 60px;
+  }
+
+  .title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    height: 65px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 431px;
+    height: 65px;
+    padding-top: 6px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+  }
+
+
+  .inner-landing-pages {
+    width: 1320px;
+    height: 1017px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+    gap: 46px; /* Відступи між блоками */
+    padding: 20px; /* Внутрішні відступи для контейнера */
+  }
+
+  .prev-landing {
+    width: 634px;
+    height: 470px;
+    background-color: #0000000A;
+  }
+
+  .prev-landing img,
+  .prev-company img {
+    padding-top: 29px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 17px;
+  }
+
+  .prev-landing h1,
+  .prev-company h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32.5px;
+    padding-left: 44px;
+    padding-bottom: 31px;
+  }
+
+  .company-pages {
+    margin-left: 60px;
+  }
+  
+  .inner-company-pages {
+    width: 1320px;
+    height: 1134px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Дві колонки */
+    gap: 46px; /* Відступи між блоками */
+    padding: 20px; /* Внутрішні відступи для контейнера */
+  }
+
+  .prev-company {
+    width: 403px;
+    height: 325px;
+    background-color: #0000000A;
   }
 
 
