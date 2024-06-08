@@ -4,6 +4,7 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    height: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -234,6 +235,7 @@ span {
 
   .company-pages {
     margin-left: 60px;
+    margin-bottom: 100px;
   }
   
   .inner-company-pages {
@@ -251,5 +253,32 @@ span {
     background-color: #0000000A;
   }
 
+  .cms-pages {
+    height: 3208.41px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+  }
 
- 
+  .cms-pages h1 {
+    width: 320px;
+  }
+
+  .utility-pages h1 {
+    width: 229px;
+  }
+
+  .inner-utility-pages {
+    width: 1320px;
+    height: 1566px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+    gap: 46px; /* Відступи між блоками */
+    padding: 20px; /* Внутрішні відступи для контейнера */
+  }
+
+  .utility-pages {
+    height: 1566px;
+    width: 1332px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+  }
