@@ -87,198 +87,286 @@ span {
     background-color: #E2B013;
     text-align: center;
     margin-bottom: 40px;
-  }
+}
   
-  span p {
-    display: inline;
-    font-weight: 400;
-    font-size: 14px;
-    color: #ffffff;
-  }
+span p {
+  display: inline;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
 
-  .header-text h1 {
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 86px;
-    margin-bottom: 40px;
-  }
+.header-text h1 {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 86px;
+  margin-bottom: 40px;
+}
 
-  .header-text h2 {
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 25px;
-    margin-bottom: 46px;
-  }
+.header-text h2 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 25px;
+  margin-bottom: 46px;
+}
 
-  .zero-is {
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 33px;
-    margin-bottom: 86.5px;
-  }
+.zero-is {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  margin-bottom: 86.5px;
+}
 
-  .qualities {
-    width: 522px;
-    height: 104px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
+.qualities {
+  width: 522px;
+  height: 104px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 
-  .qualities p {
-    font-weight: 400;
-    font-style: 10px;
-    color: #333333;
-  }
+.qualities p {
+  font-weight: 400;
+  font-style: 10px;
+  color: #333333;
+}
 
-  .photo-1 {
-    margin-right: 25px;
-    margin-bottom: 117px;
-  }
+.photo-1 {
+  margin-right: 25px;
+  margin-bottom: 117px;
+}
 
-  .photo-2 {
-    margin-left: 60px;
-    margin-bottom: 65px;
-    margin-top: 129px;
-  }
+.photo-2 {
+  margin-left: 60px;
+  margin-bottom: 65px;
+  margin-top: 129px;
+}
 
-  .second-block {
-    height: 635px;
-    display: flex;
-    margin-bottom: 20px;
-  }
+.second-block {
+  height: 635px;
+  display: flex;
+  margin-bottom: 20px;
+}
 
-  .second-text {
-    width: 660px;
-    height: 445px;
-    margin-top: 102px;
-    margin-left: 50px;
-  }
+.second-text {
+  width: 660px;
+  height: 445px;
+  margin-top: 102px;
+  margin-left: 50px;
+}
+
+.second-text h1 {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 86.4px;
+  margin-bottom: 43px;
+}
+
+.second-text p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27.5px;
+  margin-bottom: 28px;
+}
+
+.category {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  height: 38px;
+  padding: 9px 16px;
+}
+
+.categories-line {
+  margin-bottom: 8px;
+}
+
+.landing-pages {
+  height: 1342px;
+  margin-left: 60px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  height: 65px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 431px;
+  height: 65px;
+  padding-top: 6px;
+  padding-left: 30px;
+  margin-bottom: 60px;
+}
+
+
+.inner-landing-pages {
+  width: 1320px;
+  height: 1017px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+  gap: 46px; /* Відступи між блоками */
+  padding: 20px; /* Внутрішні відступи для контейнера */
+}
+
+.prev-landing {
+  width: 634px;
+  height: 470px;
+  background-color: #0000000A;
+}
+
+.prev-landing img,
+.prev-company img {
+  padding-top: 29px;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-bottom: 17px;
+}
+
+.prev-landing h1,
+.prev-company h1 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.5px;
+  padding-left: 44px;
+  padding-bottom: 31px;
   
-  .second-text h1 {
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 86.4px;
-    margin-bottom: 43px;
-  }
+}
 
-  .second-text p {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27.5px;
-    margin-bottom: 28px;
-  }
+.company-pages {
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
 
-  .category {
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-    height: 38px;
-    padding: 9px 16px;
-  }
+.inner-company-pages {
+  width: 1320px;
+  height: 1134px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Дві колонки */
+  gap: 46px; /* Відступи між блоками */
+  padding: 20px; /* Внутрішні відступи для контейнера */
+}
 
-  .categories-line {
-    margin-bottom: 8px;
-  }
+.prev-company {
+  width: 403px;
+  height: 325px;
+  background-color: #0000000A;
+}
 
-  .landing-pages {
-    height: 1342px;
-    margin-left: 60px;
-  }
+.cms-pages {
+  height: 3208.41px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
 
-  .title {
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
-    height: 65px;
-    background-color: #000000;
-    color: #ffffff;
-    width: 431px;
-    height: 65px;
-    padding-top: 6px;
-    padding-left: 30px;
-    margin-bottom: 60px;
-  }
+.cms-pages h1 {
+  width: 320px;
+}
 
+.utility-pages h1 {
+  width: 229px;
+}
 
-  .inner-landing-pages {
-    width: 1320px;
-    height: 1017px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
-    gap: 46px; /* Відступи між блоками */
-    padding: 20px; /* Внутрішні відступи для контейнера */
-  }
+.inner-utility-pages {
+  width: 1320px;
+  height: 1566px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+  gap: 46px; /* Відступи між блоками */
+  padding: 20px; /* Внутрішні відступи для контейнера */
+}
 
-  .prev-landing {
-    width: 634px;
-    height: 470px;
-    background-color: #0000000A;
-  }
+.utility-pages {
+  height: 1566px;
+  width: 1332px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
 
-  .prev-landing img,
-  .prev-company img {
-    padding-top: 29px;
-    padding-left: 29px;
-    padding-right: 29px;
-    padding-bottom: 17px;
-  }
+.long {
+  white-space: nowrap;
+}
 
-  .prev-landing h1,
-  .prev-company h1 {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 32.5px;
-    padding-left: 44px;
-    padding-bottom: 31px;
-  }
+footer {
+  height: 73px;
+}
 
-  .company-pages {
-    margin-left: 60px;
-    margin-bottom: 100px;
-  }
-  
-  .inner-company-pages {
-    width: 1320px;
-    height: 1134px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Дві колонки */
-    gap: 46px; /* Відступи між блоками */
-    padding: 20px; /* Внутрішні відступи для контейнера */
-  }
+.inner-footer {
+  width: 1300px;
+  height: 509px;
+  display: flex;
+  padding-top: 60px;
+  margin-left: 70px;
+}
 
-  .prev-company {
-    width: 403px;
-    height: 325px;
-    background-color: #0000000A;
-  }
+.inner-footer h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
 
-  .cms-pages {
-    height: 3208.41px;
-    margin-left: 60px;
-    margin-bottom: 100px;
-  }
+.inner-footer input {
+  width: 380px;
+  height: 35px;
+}
 
-  .cms-pages h1 {
-    width: 320px;
-  }
+.btn-icons {
+  border: none;
+  background-color: transparent;
+}
 
-  .utility-pages h1 {
-    width: 229px;
-  }
+.input-block {
+  display: flex;
+}
 
-  .inner-utility-pages {
-    width: 1320px;
-    height: 1566px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
-    gap: 46px; /* Відступи між блоками */
-    padding: 20px; /* Внутрішні відступи для контейнера */
-  }
+.input-btn {
+  width: 120px;
+  height: 40px;
+  background-color: #000000;
+  margin-right: 150px;
+}
 
-  .utility-pages {
-    height: 1566px;
-    width: 1332px;
-    margin-left: 60px;
-    margin-bottom: 100px;
-  }
+.sub {
+  padding-bottom: 30px;
+}
+
+.input-block {
+  padding-bottom: 199px;
+}
+
+.icons {
+  padding-bottom: 194px;
+}
+
+.right-side-block {
+display: flex;
+}
+
+.column h1,
+.column ul {
+    margin: 0; /* Зменшує відступи між елементами */
+    padding: 0; /* Зменшує відступи між елементами */
+}
+
+.column ul {
+    list-style: none; /* Вимикає маркери списку */
+}
+
+.link-list-footer {
+  flex-direction: column;
+  width: 200.66px;
+  padding-right: 16px;
+}
+
+.link-list-footer a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.link-list-footer li {
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
